@@ -1,6 +1,7 @@
 /* Google fonts import */.
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@200..700&display=swap');
 
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0; 
@@ -81,6 +82,7 @@ nav {
 }
 .nav-toggle-label {
     font-size: 2rem;
+    
 }
 
 /* Main content */
@@ -138,4 +140,8 @@ main {
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
+}
+
+footer > ul {
+    list-style-type: none;
 }
